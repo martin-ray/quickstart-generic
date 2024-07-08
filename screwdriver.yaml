@@ -52,4 +52,5 @@ jobs:
       # The "run_arbitrary_script" executes a script. This is an alternative to
       # a Makefile target where you want to run a series of commands related to
       # this step
+      # sligh change
       - run_arbitrary_script: ./my_script.sh
