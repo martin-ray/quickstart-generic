@@ -32,7 +32,7 @@ jobs:
       # "command_to_run" is the single command that is executed during this
       # step. Environment variables will be passed between steps, within
       # the same job (as shown below).
-      - export: export GREETING="Hello, world! and come on boy 3"
+      - export: export GREETING="Hello, world! and come on boy 34"
       - hello: echo $GREETING
       # Metadata is a structured key/value storage of relevant information about a build. 
       # Metadata will be shared with subsequent builds in the same workflow.
